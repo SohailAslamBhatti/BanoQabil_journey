@@ -1,0 +1,48 @@
+.bt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.bt-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 260px;
+}
+
+.bt-bulb {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.bt-status {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.bt-btn {
+  margin-top: 15px;  /* space between bulb and button */
+  padding: 10px 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.bt-green {
+  background: #28a745;
+}
+
+.bt-red {
+  background: #dc3545;
+}
+
+.bt-btn:hover {
+  opacity: 0.9;
+}
